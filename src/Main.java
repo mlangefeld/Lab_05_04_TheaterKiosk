@@ -6,7 +6,7 @@ public class Main {
 
         int age = 0;
 
-        System.out.print("Enter your age: ");
+        System.out.print("Please enter your age: ");
 
         if (in.hasNextInt()) {
             age = in.nextInt();
