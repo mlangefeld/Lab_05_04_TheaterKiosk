@@ -7,14 +7,10 @@ public class Main {
         int age = 0;
 
         System.out.print("Please enter your age: ");
+        age = in.nextInt();
 
-        if (in.hasNextInt()) {
-            age = in.nextInt();
-            in.nextLine();
-            if (age >= 21)
-            {
-                System.out.println("Over 21 confirmed, here is your wristband");
-            }
+        if (age >= 21) {
+            System.out.println("Over 21 confirmed, please take a wristband");
 
         }
     }
